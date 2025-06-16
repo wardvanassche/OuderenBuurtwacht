@@ -43,6 +43,27 @@ export default function App() {
                 </div>
             </section>
 
+            <section className="section screenshots">
+                <h2>Bekijk de app</h2>
+                <p className="screenshots-intro">
+                    Hieronder ziet u hoe eenvoudig en overzichtelijk OuderenBuurtwacht werkt. Alles is ontworpen met helderheid en veiligheid in gedachten.
+                </p>
+                <div className="screenshot-grid">
+                    <div className="screenshot-card">
+                        <img src="screenshot1.jpg" alt="Overzicht scherm" />
+                        <p className="caption">Overzicht van uw buurtcontacten</p>
+                    </div>
+                    <div className="screenshot-card">
+                        <img src="screenshot2.jpg" alt="Melding scherm" />
+                        <p className="caption">Directe meldingen bij onregelmatigheden</p>
+                    </div>
+                    <div className="screenshot-card">
+                        <img src="screenshot3.jpg" alt="Afspraak plannen" />
+                        <p className="caption">Plan makkelijk een check-in moment</p>
+                    </div>
+                </div>
+            </section>
+
             <section className="section features">
                 <h2>Belangrijkste functies</h2>
                 <div className="features-grid">

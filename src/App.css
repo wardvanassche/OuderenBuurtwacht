@@ -101,6 +101,48 @@ body {
   border: none;
 }
 
+.screenshots {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.screenshots-intro {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshot-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.screenshot-card {
+  max-width: 280px;
+  flex: 1 1 250px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
 .features-grid {
   display: flex;
   gap: 30px;
