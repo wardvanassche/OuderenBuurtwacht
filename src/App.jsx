@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import "./App.css";
 import logo from "./assets/logo.png";
 import {FaArrowUp} from "react-icons/fa";
 
